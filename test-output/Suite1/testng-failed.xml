@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="FunctionalTest1(failed)">
+    <classes>
+      <class name="com.qa.gridizen.LoginTest.AddPropertyTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="clickOnHmo"/>
+        </methods>
+      </class> <!-- com.qa.gridizen.LoginTest.AddPropertyTest -->
+    </classes>
+  </test> <!-- FunctionalTest1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

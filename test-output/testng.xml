@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+ 
+  <test name="FunctionalTest" enabled="false">
+    <classes>
+      <class name="com.qa.gridizen.LoginTest.LoginTest"/>
+      <class name="com.qa.gridizen.LoginTest.AddMantenanceTest"/>
+    </classes>
+  </test>
+  <test name="FunctionalTest1" enabled="true" >
+  <classes>
+  <class name="com.qa.gridizen.LoginTest.AddPropertyTest">
+  <methods>
+  <exclude name="one"></exclude>
+  <include name="clickOnHmo"></include>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  </suite>

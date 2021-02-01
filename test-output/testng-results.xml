@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42724" started-at="2021-02-01T10:00:17Z" finished-at="2021-02-01T10:01:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42724" started-at="2021-02-01T10:00:17Z" finished-at="2021-02-01T10:01:00Z">
+      <class name="com.qa.gridizen.LoginTest.JoinTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="5660" started-at="2021-02-01T10:00:18Z" finished-at="2021-02-01T10:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="addData" duration-ms="11" started-at="2021-02-01T10:00:23Z" data-provider="addDataJoin" finished-at="2021-02-01T10:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[am5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LANDLORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anusha]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latha]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[am5.go@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8978765676]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.gridizen.LoginTest.JoinTest.addData(JoinTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="572" started-at="2021-02-01T10:00:23Z" finished-at="2021-02-01T10:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addData status=FAILURE method=JoinTest.addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="13246" started-at="2021-02-01T10:00:24Z" finished-at="2021-02-01T10:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="addData" duration-ms="3" started-at="2021-02-01T10:00:37Z" data-provider="addDataJoin" finished-at="2021-02-01T10:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[am6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LANDLORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lakki]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latha]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[am6.go@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4564234765]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.gridizen.LoginTest.JoinTest.addData(JoinTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="876" started-at="2021-02-01T10:00:37Z" finished-at="2021-02-01T10:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addData status=FAILURE method=JoinTest.addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="10653" started-at="2021-02-01T10:00:38Z" finished-at="2021-02-01T10:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="addData" duration-ms="4" started-at="2021-02-01T10:00:49Z" data-provider="addDataJoin" finished-at="2021-02-01T10:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[am7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LANDLORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[janaki]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latha]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[am7.go@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8765678909]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.gridizen.LoginTest.JoinTest.addData(JoinTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="1634" started-at="2021-02-01T10:00:49Z" finished-at="2021-02-01T10:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addData status=FAILURE method=JoinTest.addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="8276" started-at="2021-02-01T10:00:50Z" finished-at="2021-02-01T10:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="addData" duration-ms="3" started-at="2021-02-01T10:00:59Z" data-provider="addDataJoin" finished-at="2021-02-01T10:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[am8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LANDLORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bannu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latha]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[am8.go@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2345555765]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.gridizen.LoginTest.JoinTest.addData(JoinTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="951" started-at="2021-02-01T10:00:59Z" finished-at="2021-02-01T10:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addData status=FAILURE method=JoinTest.addData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gridizen.LoginTest.JoinTest@7cbd213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.gridizen.LoginTest.JoinTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

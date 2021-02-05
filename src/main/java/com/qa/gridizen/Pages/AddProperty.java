@@ -12,7 +12,7 @@ public class AddProperty extends TestBase {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	public static Boolean a;
 	public static Boolean roomDetails1;
-
+	
 	@FindBy(xpath="//input[@ng-reflect-name='propertyTitle']")
 	WebElement propertyTitle;
 	@FindBy(xpath="//input[@ng-reflect-name='postcode']")
